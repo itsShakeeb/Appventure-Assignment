@@ -1,0 +1,34 @@
+.SubBanner {
+  position: relative;
+  max-width: 100%;
+}
+.SubBannerImg {
+  max-width: 100%;
+  height: auto;
+  margin: 15px;
+}
+
+.RightArrow {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+.ProductName {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .SubBannerImg {
+    margin: 20px 10px;
+    max-width: 95%;
+    height: auto;
+  }
+  /* .MainBanner {
+    height: 250px;
+  } */
+}

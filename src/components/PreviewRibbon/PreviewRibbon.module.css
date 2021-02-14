@@ -1,0 +1,10 @@
+.RibbonWrapper {
+  min-width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  height: 72px;
+}
+.RibbonWrapper p {
+  text-align: center;
+  padding: 25px 0;
+}

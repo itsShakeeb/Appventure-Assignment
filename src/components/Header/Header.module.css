@@ -1,0 +1,13 @@
+.HeaderWrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* border: 1px solid green; */
+  justify-content: space-between;
+  margin: 30px 80px;
+  max-width: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .HeaderWrapper {
+    margin: 30px 35px;
+  }
+}

@@ -1,0 +1,19 @@
+.LinkWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+}
+.linkClass {
+  color: #3a444c;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 425px) {
+  .LinkWrapper {
+    display: flex;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
